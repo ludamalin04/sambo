@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/swiper-bundle.min.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
@@ -21,7 +22,7 @@
     <section class="header-top">
         <a class="logo">
             <img src="imgs/logo.png" alt="logo">
-            <h2 class="header-title">Федерація самбо<br> Кривий Ріг</h2>
+            <h2 class="header-title" id="home">Федерація самбо<br> Кривий Ріг</h2>
         </a>
         <div class="header-action_top">
             <a href="https://www.instagram.com/federation.sambo.kr/" target="_blank"><img src="imgs/instagram.png"
@@ -38,9 +39,9 @@
     <section class="header-menu">
         <ul class="header-list">
             <li class="header-item"><a href="#about">Про нас</a></li>
-            <li class="header-item"><a href="#services">Новини</a></li>
+            <li class="header-item"><a href="#news">Новини</a></li>
             <li class="header-item"><a href="#team">Наша команда</a></li>
-            <li class="header-item"><a href="#location">Контакти</a></li>
+            <li class="header-item"><a href="#contacts">Контакти</a></li>
         </ul>
         <div class="header-action">
             <a href="https://www.instagram.com/federation.sambo.kr/" target="_blank"><img src="imgs/instagram.png"
@@ -56,84 +57,178 @@
             впевненість</p>
     </section>
     <section class="header-bottom">
-        В цій секції можна написати наприклад про історію створення федерації, її основні принципи та переваги.
-        Закликати всіх бажаючих приходити на заняття і розвивати себе.
+        Ласкаво просимо на офіційний сайт Криворізької федерації самбо, дзюдо, сумо та бойового самбо! Ми об'єднуємо
+        ентузіастів і професіоналів цих видів спорту в Кривому Розі, сприяючи їхньому розвитку та популяризації.
     </section>
 </header>
 <main class="main">
-    <h2 class="title">Наша команда</h2>
-    <section class="about_us">
-        <div class="about_us-item">
-            <div class="about_us-img">
-                <img src="imgs/about.jpg" alt="about">
+    <section class="mission" id="about">
+        <p class="text">Ми прагнемо створити сприятливі умови для тренувань, змагань та професійного зростання
+            спортсменів у самбо,
+            дзюдо, сумо та бойовому самбо.</p>
+        <p class="text-frame">Наша мета — виховання сильних, дисциплінованих та успішних спортсменів, які прославляють
+            наше місто на
+            національному та міжнародному рівнях.</p>
+    </section>
+    <h2 class="title">Приєднуйтесь до нас!</h2>
+    <section class="swiper-container">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="imgs/slide1.jpg" alt="slide"></div>
+                <div class="swiper-slide"><img src="imgs/slide2.jpg" alt="slide"></div>
+                <div class="swiper-slide"><img src="imgs/slide3.jpg" alt="slide"></div>
+                <div class="swiper-slide"><img src="imgs/slide4.jpg" alt="slide"></div>
+                <div class="swiper-slide"><img src="imgs/slide5.jpg" alt="slide"></div>
+                <div class="swiper-slide"><img src="imgs/slide6.jpg" alt="slide"></div>
+                <div class="swiper-slide"><img src="imgs/slide7.jpg" alt="slide"></div>
+                <div class="swiper-slide"><img src="imgs/slide8.jpg" alt="slide"></div>
+                <!--            <div class="swiper-slide">Slide 9</div>-->
             </div>
-            <div class="about_us-text">
-                <h3 class="about_us-title">Євген Понирко</h3>
-                <p class="about_us-subtitle">Віцепрезидент Національної федерації самбо України, Президент
-                    Криворізької федерації самбо</p>
+            <div class="swiper-content">
+                <!--                <h2 class="swiper-title">Приєднуйтесь до нас!</h2>-->
+                <p class="swiper-text">Якщо ви бажаєте стати частиною нашої спільноти, розвиватися у вибраному виді
+                    спорту
+                    та
+                    досягати нових висот, запрошуємо вас приєднатися до Криворізької федерації самбо, дзюдо, сумо та
+                    бойового
+                    самбо. Ви зможете досягти більшого!<br><br>Разом ми зробимо ці види спорту ще більш популярними та
+                    успішними в нашому регіоні!</p>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <h2 class="title" id="team">Наша команда</h2>
+    <section class="team">
+        <div class="team-member">
+            <div class="team-member-img"><img src="imgs/team1.jpg" alt="team"></div>
+            <div class="team-member-text">
+                <h2 class="team-member-name">Євген Понирко</h2>
+                <p class="team-member-info">Віцепрезидент Національної федерації самбо України, Президент Криворізької
+                    федерації самбо, дзюдо, сумо та бойового самбо, майстер спорту з самбо та бойового самбо, майстер
+                    спорту з дзюдо, бронзовий призер чемпіонату Європи з самбо.</p>
             </div>
         </div>
-        <div class="about_us-item">
-            <div class="about_us-img">
-                <img src="imgs/about.jpg" alt="about">
-            </div>
-            <div class="about_us-text">
-                <h3 class="about_us-title">Євген Понирко</h3>
-                <p class="about_us-subtitle">Віцепрезидент Національної федерації самбо України, Президент
-                    Криворізької федерації самбо</p>
+        <div class="team-member">
+            <div class="team-member-img"><img src="imgs/team2.jpg" alt="team"></div>
+            <div class="team-member-text">
+                <h2 class="team-member-name">Руслан Лущиков</h2>
+                <p class="team-member-info">Віцепрезидент Криворізької федерації самбо, дзюдо, сумо та бойового самбо,
+                    чемпіон світу з самбо, срібний призер чемпіонату Європи з дзюдо.</p>
             </div>
         </div>
-        <div class="about_us-item">
-            <div class="about_us-img">
-                <img src="imgs/about.jpg" alt="about">
-            </div>
-            <div class="about_us-text">
-                <h3 class="about_us-title">Євген Понирко</h3>
-                <p class="about_us-subtitle">Віцепрезидент Національної федерації самбо України</p>
+        <div class="team-member">
+            <div class="team-member-img"><img src="imgs/team3.jpg" alt="team"></div>
+            <div class="team-member-text">
+                <h2 class="team-member-name">Анатолій Кантур</h2>
+                <p class="team-member-info">Заслужений тренер України, суддя міжнародної категорії екстра класу,
+                    майстер спорту з самбо.</p>
             </div>
         </div>
-        <div class="about_us-item">
-            <div class="about_us-img">
-                <img src="imgs/about.jpg" alt="about">
+        <div class="team-member">
+            <div class="team-member-img"><img src="imgs/team4.jpg" alt="team"></div>
+            <div class="team-member-text">
+                <h2 class="team-member-name">Костянтин Халан</h2>
+                <p class="team-member-info">Тренер та суддя міжнародної категорії, майстер спорту з самбо.</p>
             </div>
-            <div class="about_us-text">
-                <h3 class="about_us-title">Євген Понирко</h3>
-                <p class="about_us-subtitle">Віцепрезидент Національної федерації самбо України, Президент
-                    Криворізької федерації самбо</p>
+        </div>
+        <div class="team-member">
+            <div class="team-member-img"><img src="imgs/team5.png" alt="team"></div>
+            <div class="team-member-text">
+                <h2 class="team-member-name">Сергій Шпильов</h2>
+                <p class="team-member-info">Тренер, суддя та майстер спорту з самбо.</p>
+            </div>
+        </div>
+        <div class="team-member">
+            <div class="team-member-img"><img src="imgs/team6.jpg" alt="team"></div>
+            <div class="team-member-text">
+                <h2 class="team-member-name">Сергій Юріцин</h2>
+                <p class="team-member-info">Тренер, суддя та майстер спорту з самбо.</p>
             </div>
         </div>
     </section>
-    <section class="numbers">
-        <h2 class="title">федерація в цифрах</h2>
-        <div class="numbers-container">
-            <div class="numbers-item">
-                <h3 class="numbers-counter">3000+</h3>
-                <p class="numbers-fact">змагань<br> та турнірів</p>
-            </div>
-            <div class="numbers-item">
-                <h3 class="numbers-counter">30</h3>
-                <p class="numbers-fact">років досвіду</p>
-            </div>
-            <div class="numbers-item">
-                <h3 class="numbers-counter">5</h3>
-                <p class="numbers-fact">вікових груп та програм</p>
-            </div>
-            <div class="numbers-item">
-                <h3 class="numbers-counter">20000+</h3>
-                <p class="numbers-fact">задоволених учнів</p>
-            </div>
-            <div class="numbers-item">
-                <h3 class="numbers-counter">12</h3>
-                <p class="numbers-fact">кваліфікованих тренерів</p>
-            </div>
-            <div class="numbers-item">
-                <h3 class="numbers-counter">12000+</h3>
-                <p class="numbers-fact">перемог та нагород</p>
-            </div>
-        </div>
+    <section class="values">
+        <h2 class="title">Наші цінності</h2>
+        <p class="text"><span>Професіоналізм</span> — забезпечуємо високий рівень підготовки та підтримки для всіх
+            спортсменів.</p>
+        <p class="text"><span>Дисципліна</span> — виховуємо відповідальність, самоконтроль та наполегливість.</p>
+        <p class="text"><span>Спільнота</span> — створюємо дружню та підтримуючу атмосферу для всіх членів федерації.
+        </p>
+        <p class="text-frame">Наші спортсмени регулярно беруть участь у змаганнях різних рівнів, демонструючи високі
+            результати та здобуваючи призові місця. Ми пишаємося їхніми успіхами та прагнемо до подальших перемог.</p>
     </section>
+
+    <!--    <section class="about_us">-->
+    <!--        <div class="about_us-item">-->
+    <!--            <div class="about_us-img">-->
+    <!--                <img src="imgs/about.jpg" alt="about">-->
+    <!--            </div>-->
+    <!--            <div class="about_us-text">-->
+    <!--                <h3 class="about_us-title">Євген Понирко</h3>-->
+    <!--                <p class="about_us-subtitle">Віцепрезидент Національної федерації самбо України, Президент-->
+    <!--                    Криворізької федерації самбо</p>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="about_us-item">-->
+    <!--            <div class="about_us-img">-->
+    <!--                <img src="imgs/about.jpg" alt="about">-->
+    <!--            </div>-->
+    <!--            <div class="about_us-text">-->
+    <!--                <h3 class="about_us-title">Євген Понирко</h3>-->
+    <!--                <p class="about_us-subtitle">Віцепрезидент Національної федерації самбо України, Президент-->
+    <!--                    Криворізької федерації самбо</p>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="about_us-item">-->
+    <!--            <div class="about_us-img">-->
+    <!--                <img src="imgs/about.jpg" alt="about">-->
+    <!--            </div>-->
+    <!--            <div class="about_us-text">-->
+    <!--                <h3 class="about_us-title">Євген Понирко</h3>-->
+    <!--                <p class="about_us-subtitle">Віцепрезидент Національної федерації самбо України</p>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="about_us-item">-->
+    <!--            <div class="about_us-img">-->
+    <!--                <img src="imgs/about.jpg" alt="about">-->
+    <!--            </div>-->
+    <!--            <div class="about_us-text">-->
+    <!--                <h3 class="about_us-title">Євген Понирко</h3>-->
+    <!--                <p class="about_us-subtitle">Віцепрезидент Національної федерації самбо України, Президент-->
+    <!--                    Криворізької федерації самбо</p>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </section>-->
+    <!--    <section class="numbers">-->
+    <!--        <h2 class="title">федерація в цифрах</h2>-->
+    <!--        <div class="numbers-container">-->
+    <!--            <div class="numbers-item">-->
+    <!--                <h3 class="numbers-counter">3000+</h3>-->
+    <!--                <p class="numbers-fact">змагань<br> та турнірів</p>-->
+    <!--            </div>-->
+    <!--            <div class="numbers-item">-->
+    <!--                <h3 class="numbers-counter">30</h3>-->
+    <!--                <p class="numbers-fact">років досвіду</p>-->
+    <!--            </div>-->
+    <!--            <div class="numbers-item">-->
+    <!--                <h3 class="numbers-counter">5</h3>-->
+    <!--                <p class="numbers-fact">вікових груп та програм</p>-->
+    <!--            </div>-->
+    <!--            <div class="numbers-item">-->
+    <!--                <h3 class="numbers-counter">20000+</h3>-->
+    <!--                <p class="numbers-fact">задоволених учнів</p>-->
+    <!--            </div>-->
+    <!--            <div class="numbers-item">-->
+    <!--                <h3 class="numbers-counter">12</h3>-->
+    <!--                <p class="numbers-fact">кваліфікованих тренерів</p>-->
+    <!--            </div>-->
+    <!--            <div class="numbers-item">-->
+    <!--                <h3 class="numbers-counter">12000+</h3>-->
+    <!--                <p class="numbers-fact">перемог та нагород</p>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </section>-->
     <section>
-        <h2 class="title title-low">події</h2>
+        <h2 class="title" id="news">новини</h2>
         <div class="news">
             <div class="news-item">
                 <div class="news-img"><img src="imgs/news.jpg" alt="news"></div>
@@ -204,34 +299,42 @@
         <p class="pagination">< 1 2 3 4 ... ></p>
     </section>
 </main>
+<p class="text">Слідкуйте за нашими новинами та подіями на нашій сторінці в Instagram:
+    <a href="https://www.instagram.com/federation.sambo.kr/" target="_blank"> @federation.sambo.kr
+        </a></p>
 <footer>
-    <div class="footer">
+    <div class="footer" id="contacts">
         <div class="footer-nav">
-            <a class="footer-title" href="#home">Федерація самбо<br> Кривий Ріг</a>
+            <div class="footer-name">
+                <p class="footer-title"><a href="#home">Федерація самбо<br> Кривий Ріг</a></p>
+            </div>
             <div class="footer-line-l"></div>
             <ul class="footer-list">
-                <li class=><a href="#services">Про нас</a></li>
-                <li class=><a href="#team">Новини</a></li>
-                <li class=><a href="#location">Наша команда</a></li>
-                <li class=><a href="#about">Контакти</a></li>
+                <li class=><a href="#about">Про нас</a></li>
+                <li class=><a href="#news">Новини</a></li>
+                <li class=><a href="#team">Наша команда</a></li>
             </ul>
         </div>
         <div class="footer-contacts">
             <div class="footer-contacts-item">
                 <img class="footer-icon" src="imgs/location.png" alt="contacts">
                 <div class="footer-line-s"></div>
-                <a target="_blank" href="#">16814
-                    Адреса клубу</a>
+                <a target="_blank" href="https://maps.app.goo.gl/DGMcCnuZm5CTD3qu5">вул. Симбірцева, 3, Кривий Ріг </a>
             </div>
             <div class="footer-contacts-item">
                 <img class="footer-icon" src="imgs/mail.png" alt="contacts">
                 <div class="footer-line-s"></div>
-                <a href="mailto:">електронна адреса</a>
+                <a href="mailto:federation.sambo.kr@gmail.com">federation.sambo.kr@gmail.com</a>
             </div>
             <div class="footer-contacts-item">
                 <img class="footer-icon" src="imgs/phone.png" alt="contacts">
                 <div class="footer-line-s"></div>
-                <a href="tel:">06712312345</a>
+                <a href="tel:+380673036633">+380673036633</a>
+            </div>
+            <div class="footer-contacts-item">
+                <img class="footer-icon" src="imgs/time.png" alt="contacts">
+                <div class="footer-line-s"></div>
+                <p>Пн-Пт: 9:00-15:00</p>
             </div>
         </div>
     </div>
@@ -243,8 +346,11 @@
         <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.tiktok.com%2F%40federation.sambo.kr%3F_t%3D8niUPwssgFC%26_r%3D1%26fbclid%3DIwZXh0bgNhZW0CMTAAAR2TuBBSMHYRUwCC8Px-NSHF5DO6B6oP4fBnVDPv9OGuhcQ5G29O12pxiS0_aem_cR74kEF4pXVzLZ2UonfNXA&h=AT2twAZYFhm-CiL57pLNlPSXUhkWdFBbqgZX4_UVTS4KP0svaG9CGbjdFLS03dKxCGCMW7rGGj6MgaFqOcIrbstPkU8p6Lf1B0zk2GMKTMuzJPucCHZ_sIyt9rHMwlbkAZFarw"
            target="_blank"><img src="imgs/tik-tok.png" alt=""></a>
     </div>
-    <!--    <div class="footer-copyright">Copyright 2023 Grace Point Care Homes | All Rights Reserved</div>-->
+    <div class="footer-copyright"><a target="_blank" href="https://www.instagram.com/ludamalin04/">Розробка сайту
+        Ludamalin04</a> | All Rights Reserved
+    </div>
 </footer>
 <script src="js/common.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
 </body>
 </html>
