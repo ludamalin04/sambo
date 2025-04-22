@@ -420,7 +420,7 @@ body {
   height: 100%;
   z-index: 100;
   padding: 15%;
-  background: rgba(80, 103, 108, 0.7);
+  background: rgba(80, 103, 108, 0.5);
 }
 @media (max-width: 500px) {
   .swiper-content {
