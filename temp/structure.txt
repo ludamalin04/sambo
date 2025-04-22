@@ -1,0 +1,17 @@
+Таблиця contacts
+Поля id_contacts, phone, address, street, hours
+
+Таблиця social
+Поля id_social, instagram, facebook, tiktok
+
+Таблиця school
+Поля id_school, name, address
+
+Таблиця classes
+Поля id_classes, id_school, id_traineers
+
+Таблиця trainers
+Поля id_trainers, name, phone, description, image
+
+Таблиця login
+Поля id_login, login, password

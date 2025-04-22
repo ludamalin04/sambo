@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+
+<script type="module">
+    import {apiClient} from './request/apiClient.js';
+
+    async function test() {
+        // await apiClient.update('contacts', 1, {
+        //     phone: "+98",
+        //     address: "3federation.sambo.kr@gmail.com",
+        //     street: "5вул. Симбірцева, 3, Кривий Ріг",
+        //     hours: "8Пн-Пт: 9:00-15:00",
+        // });
+        //return await apiClient.getOne('contacts', 1);
+    }
+
+    test().then((res)=>{console.log(res)});
+</script>
+<script>
+    // // Отримати всі контакти
+    // const contacts = await apiClient.getAll('contacts');
+    //
+    // // Отримати одного тренера
+    // const trainer = await apiClient.getOne('trainers', 2);
+
+    // Створити новий запис у classes
+    // await apiClient.create('contacts', {
+    //     phone: "+380673036633",
+    //     address: "federation.sambo.kr@gmail.com",
+    //     street: "вул. Симбірцева, 3, Кривий Ріг",
+    //     hours: "Пн-Пт: 9:00-15:00",
+    // });
+
+    // // Оновити запис у social
+    // await apiClient.update('social', 1, {
+    //     instagram: 'https://instagram.com/...',
+    //     tiktok: 'https://tiktok.com/...'
+    // });
+    //
+    // // Видалити запис
+    // await apiClient.remove('trainers', 5);
+    //
+    // // Отримати кастомний маршрут (наприклад, with-trainers)
+    // const classList = await apiClient.custom('classes/with-trainers');
+
+</script>
+</body>
+</html>
