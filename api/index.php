@@ -50,6 +50,11 @@ $model = new $className();
 $input = json_decode(file_get_contents('php://input'), true) ?? [];
 
 // Маршрутизація
+if ($method === 'GET' && $table === 'classes' && $id === 'with-trainers') {
+    $model->getWithTrainerNames();
+    exit;
+}
+
 switch ($method) {
     case 'GET':
         if ($id) {

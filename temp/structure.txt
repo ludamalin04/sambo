@@ -8,10 +8,10 @@
 Поля id_school, name, address
 
 Таблиця classes
-Поля id_classes, id_school, id_traineers
+Поля id_classes, id_school, id_trainers
 
 Таблиця trainers
 Поля id_trainers, name, phone, description, image
 
 Таблиця login
-Поля id_login, login, password
+Поля id_login, login, password, sid
