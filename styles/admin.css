@@ -85,11 +85,6 @@ section {
   gap: 20px;
 }
 
-.edit {
-  border: #007aff solid 1px;
-  background: #007aff;
-}
-
 #contact-form input:not([disabled]), #social-form input:not([disabled]) {
   background-color: #E5E5E5;
   border: 1px solid white;

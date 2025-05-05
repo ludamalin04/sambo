@@ -5,10 +5,10 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
     <title>Admin panel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/admin.css">
     <link rel="icon" type="image/x-icon" href="../imgs/logo.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <?php
@@ -44,7 +44,7 @@ if (!checkSession()):
             console.log(data);
 
             if (data.success) {
-                alert("Успішний вхід!");
+                //alert("Успішний вхід!");
                 document.location.reload();
             } else {
                 alert("Невірний логін або пароль");
@@ -75,8 +75,8 @@ else:
                     <input type="text" name="hours" id="admin-hours" class="cell-info" disabled>
                 </div>
                 <div class="button-container">
-                    <button type="button" class="edit">редагувати</button>
-                    <button type="submit">зберегти</button>
+                    <button type="button" class="btn btn-outline-primary edit">редагувати</button>
+                    <button type="submit" class="btn btn-primary">зберегти</button>
                 </div>
             </form>
         </section>
@@ -96,8 +96,8 @@ else:
                     <input type="text" name="tiktok" id="admin-tiktok" class="cell-info" disabled>
                 </div>
                 <div class="button-container">
-                    <button type="button" class="edit">редагувати</button>
-                    <button type="submit">зберегти</button>
+                    <button type="button" class="btn btn-outline-primary edit">редагувати</button>
+                    <button type="submit" class="btn btn-primary">зберегти</button>
                 </div>
             </form>
         </section>
@@ -148,10 +148,10 @@ else:
                     <input type="tel" class="form-control" id="trainerPhone" placeholder="Телефон" required pattern="[0-9\-+() ]+">
                 </div>
                 <div class="col-md-3">
-                    <input type="text" class="form-control" id="trainerDescription" placeholder="Опис">
+                    <input type="hidden" class="form-control" id="trainerDescription" placeholder="Опис">
                 </div>
                 <div class="col-md-3">
-                    <input type="url" class="form-control" id="trainerImage" placeholder="Посилання на зображення">
+                    <input type="hidden" class="form-control" id="trainerImage" placeholder="Посилання на зображення">
                 </div>
                 <div class="col-md-12">
                     <button class="btn btn-primary" type="submit">Зберегти</button>
